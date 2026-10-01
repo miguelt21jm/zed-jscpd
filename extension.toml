@@ -1,0 +1,30 @@
+id = "jscpd"
+name = "jscpd"
+description = "Copy/paste detection diagnostics from the jscpd language server."
+version = "0.0.1"
+schema_version = 1
+authors = ["migue <migueltmrjms@gmail.com>"]
+repository = "https://github.com/miguelt21jm/zed-jscpd"
+
+[language_servers.jscpd]
+name = "jscpd"
+languages = [
+  "Astro",
+  "C",
+  "C++",
+  "CSharp",
+  "Go",
+  "Java",
+  "JavaScript",
+  "Kotlin",
+  "PHP",
+  "Python",
+  "Ruby",
+  "Rust",
+  "Scala",
+  "Svelte",
+  "Swift",
+  "TSX",
+  "TypeScript",
+  "Vue.js",
+]
